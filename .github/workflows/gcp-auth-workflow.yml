@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: "Test WIF"
-    runs-on: [ GKE ]
+    runs-on: self-hosted
     timeout-minutes: 90
     permissions:
       contents: 'read'
